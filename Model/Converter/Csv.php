@@ -34,7 +34,7 @@ class Csv
      */
     public function getCsv(array $order)
     {
-        $name = md5(microtime());
+        $name = sha1(microtime());
         $file = $this->path . '/' . $name . '.csv';
         $this->directory->create($this->path);
         $stream = $this->directory->openFile($file, 'w+');

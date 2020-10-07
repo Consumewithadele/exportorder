@@ -31,7 +31,6 @@ class ExportOrder extends Command
      */
     private $csvConverter;
 
-
     /**
      * @param OrderExport $export
      * @param State $state
@@ -43,7 +42,7 @@ class ExportOrder extends Command
         State $state,
         OrderRepository $orderRepository,
         CsvConverter $csvConverter
-    ){
+    ) {
         $this->export = $export;
         $this->state = $state;
         $this->orderRepository = $orderRepository;
