@@ -1,5 +1,5 @@
 # exportorder
-M2 export order to CSV test task 
+M2 export order to CSV file, test task 
 
 Usage:
 
