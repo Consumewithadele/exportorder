@@ -4,7 +4,7 @@ M2 export order to CSV test task
 Ussage:
 
 php bin/magento consumewithadele:exportorder --orderId 1  
-Order 000000001 exported into file var/export/c9deba61346057230895e385149d4ac3.csv
+Order 000000001 exported into file var/export/2dd0f6e2c1635e5b61ef21519dadeabbeb9789e8.csv
 
 Sample order content:
 
